@@ -1,0 +1,41 @@
+1. Podstawy interfejsu użytkownika (UI)
+Layouty: Używaj View, Text, Image, i ScrollView do tworzenia układów. Testuj Flexbox (flex, alignItems, justifyContent) dla układania elementów.
+Stylowanie: Ucz się stylowania komponentów z StyleSheet, dynamicznego stylowania oraz używania Tailwind CSS z React Native.
+Listy: Twórz listy z FlatList i SectionList, aby wyświetlać dane w formie przewijanej listy.
+2. Nawigacja
+Stack Navigation: Testuj nawigację między ekranami z wykorzystaniem react-navigation. Implementuj prostą nawigację typu stack, np. Home -> Details.
+Tab Navigation: Dodaj dolne paski nawigacyjne (taby) do aplikacji, np. Home, Settings, Profile.
+Drawer Navigation: Stwórz nawigację typu "hamburger menu", aby użytkownicy mogli otwierać i zamykać menu z boku ekranu.
+3. Formularze i użytkownik
+Formularze: Twórz formularze z polami tekstowymi (TextInput), przyciskami (Button), i przełącznikami (Switch). Testuj walidację danych wejściowych.
+Obsługa użytkownika: Testuj reakcje na dotyk z TouchableOpacity, TouchableHighlight, czy Pressable.
+Alerty i Modale: Ucz się wyświetlania komunikatów użytkownikowi za pomocą Alert i Modal.
+4. Zarządzanie stanem
+Zarządzanie stanem: Używaj useState, useEffect oraz useContext do zarządzania stanem aplikacji. Spróbuj także użyć Redux, aby zarządzać bardziej złożonym stanem.
+Asynchroniczne operacje: Ucz się obsługiwać asynchroniczne operacje (np. zapisywanie danych użytkownika lub pobieranie danych z API) za pomocą useEffect i async/await.
+5. Integracja z API
+Pobieranie danych: Testuj interakcję z REST API lub GraphQL za pomocą fetch lub bibliotek takich jak Axios. Wyświetlaj pobrane dane w aplikacji.
+Wysyłanie danych: Implementuj formularze, które wysyłają dane do API, np. rejestracja użytkownika.
+6. Multimedia i zaawansowane funkcje
+Dodawanie obrazów i wideo: Pracuj z mediami, takimi jak obrazy (Image) oraz wideo (Video z expo-av).
+Integracja z mapami: Używaj react-native-maps, aby dodać mapy do aplikacji i wyświetlać lokalizacje.
+Animacje: Testuj proste animacje z Animated oraz bardziej zaawansowane animacje z bibliotekami jak react-native-reanimated.
+7. Testowanie aplikacji
+Testy jednostkowe: Użyj Jest i React Native Testing Library do pisania testów jednostkowych komponentów.
+Testowanie interfejsu użytkownika: Ucz się pisać testy UI, aby automatycznie weryfikować interakcje użytkownika z aplikacją.
+8. Przechowywanie danych
+AsyncStorage: Używaj AsyncStorage do przechowywania danych lokalnie na urządzeniu.
+Baza danych: Integruj bazy danych, takie jak Firebase lub SQLite, aby przechowywać dane użytkowników.
+9. Urządzenia i sensory
+Kamera: Dodaj funkcje aparatu z expo-camera i pozwól użytkownikom robić zdjęcia.
+Lokalizacja: Pobieraj dane lokalizacyjne z expo-location.
+Powiadomienia push: Dodaj powiadomienia push z expo-notifications.
+10. Budowanie i wdrażanie aplikacji
+Budowanie aplikacji: Ucz się budować aplikacje na urządzenia fizyczne i emulatory.
+Wdrażanie: Naucz się wdrażać aplikacje na App Store i Google Play, aby testować na rzeczywistych urządzeniach.
+Przykłady projektów do nauki:
+Lista zadań (To-Do List): Prosty projekt do zarządzania zadaniami, z funkcją dodawania, usuwania i oznaczania jako ukończone.
+Aplikacja pogodowa: Pobieraj dane pogodowe z API i wyświetlaj je na interfejsie użytkownika.
+Aplikacja czatu: Tworzenie prostego czatu, który pozwala użytkownikom wysyłać wiadomości w czasie rzeczywistym.
+Aplikacja fitness: Śledzenie aktywności użytkowników, zliczanie kroków, kalorii, itp.
+Praktyka w tych obszarach pozwoli Ci zyskać solidne fundamenty w React Native oraz zdolność do budowania bardziej złożonych i zaawansowanych aplikacji mobilnych.
